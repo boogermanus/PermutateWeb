@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'PermuateWeb' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('PermuateWeb');
+    expect(app.title).toEqual('Permuate Web');
   });
 
   // it('should render title', () => {

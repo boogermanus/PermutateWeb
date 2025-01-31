@@ -10,5 +10,5 @@ import { ProfileComponent } from "./components/profile/profile.component";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'PermuateWeb';
+  title = 'Permuate Web';
 }
