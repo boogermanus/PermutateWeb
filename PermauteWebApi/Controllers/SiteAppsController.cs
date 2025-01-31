@@ -13,7 +13,7 @@ public class SiteAppsController : ControllerBase
         _siteAppService = service;
     }
 
-    [HttpGet("siteapps")]
+    [HttpGet()]
     public IActionResult Get()
     {
         return Ok(_siteAppService.GetSiteApps());
