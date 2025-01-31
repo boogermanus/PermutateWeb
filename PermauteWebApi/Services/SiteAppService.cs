@@ -10,14 +10,20 @@ public class SiteAppService : ISiteAppService
 
     public SiteAppService()
     {
+        LoadData();
+    }
+
+    public void LoadData()
+    {
         var json = File.ReadAllText("Resources/SiteApps.json");
         var apps = JsonConvert.DeserializeObject<SiteApp[]>(json);
-        
-        if(apps != null)
+
+        if (apps != null)
         {
             _siteApps = apps.ToList();
         }
     }
+
     public IEnumerable<SiteApp> GetSiteApps()
     {
         return _siteApps;
