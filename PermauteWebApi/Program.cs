@@ -1,3 +1,6 @@
+using PermutateWebApi.Interfaces;
+using PermutateWebApi.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://localhost:5007");
 
@@ -6,6 +9,8 @@ builder.WebHost.UseUrls("http://localhost:5007");
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+builder.Services.AddSingleton<ISiteAppService, SiteAppService>();
 
 var app = builder.Build();
 
