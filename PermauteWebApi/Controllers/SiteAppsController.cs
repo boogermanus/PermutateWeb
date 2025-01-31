@@ -13,9 +13,16 @@ public class SiteAppsController : ControllerBase
         _siteAppService = service;
     }
 
-    [HttpGet()]
+    [HttpGet]
     public IActionResult Get()
     {
         return Ok(_siteAppService.GetSiteApps());
+    }
+
+    [HttpGet("reload")]
+    public IActionResult Reload()
+    {
+        _siteAppService.LoadData();
+        return Ok();
     }
 }
