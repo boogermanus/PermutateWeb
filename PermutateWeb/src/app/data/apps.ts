@@ -81,7 +81,7 @@ const apps: IApp[] = [
     {
         id: 12,
         name: 'Memory',
-        description: 'A basic memory game built with entirely with Angular and Angular Material. Play a game and test your memory!',
+        description: 'A basic memory game built with entirely Angular and Angular Material. Play a game and test your memory!',
         appUrl: 'https://permutate.us/stuff/memory',
         gitHubUrl: 'https://github.com/boogermanus/memory'
     },
