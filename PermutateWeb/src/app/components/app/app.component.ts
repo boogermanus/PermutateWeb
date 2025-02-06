@@ -12,4 +12,5 @@ import { IApp } from '../../interfaces/iapp';
 })
 export class AppComponent {
   @Input() app!: IApp
+  @Input() expanded!: boolean;
 }

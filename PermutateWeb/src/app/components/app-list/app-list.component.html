@@ -1,4 +1,4 @@
-@let myAppList = appList | async;
+
 <div class="row justify-content-center mt-2" [style.width]="'100%'">
     <mat-card appearance="outlined" [style.width]="'75%'">
         <mat-card-header>
@@ -7,8 +7,8 @@
         <mat-card-content>
             <button class="mt-2" mat-button (click)="toggle()">{{buttonText}}</button>
             <mat-accordion multi="true">
-                @for(app of myAppList; track app.id) {
-                    <app-app [app]="app"></app-app>
+                @for(app of appList | async; track app.id) {
+                    <app-app [app]="app" [expanded]="expanded"></app-app>
                 }
             </mat-accordion>
         </mat-card-content>
