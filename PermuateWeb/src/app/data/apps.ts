@@ -1,4 +1,4 @@
-import { IApp } from "../app/interfaces/iapp";
+import { IApp } from "../interfaces/iapp";
 
 const apps: IApp[] = [
     {

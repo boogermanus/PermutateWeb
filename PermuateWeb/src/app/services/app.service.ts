@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { apps } from '../../data/apps'
+import { apps } from '../data/apps'
 import { IApp } from '../interfaces/iapp';
 @Injectable({
   providedIn: 'root'
