@@ -3,4 +3,8 @@
         <mat-panel-title>{{app.name}}</mat-panel-title>
     </mat-expansion-panel-header>
     <p>{{app.description}}</p>
+    <mat-action-row>
+        <a [href]="app.appUrl">View</a>
+        <a [href]="app.gitHubUrl" class="ms-2">Source Code</a>
+    </mat-action-row>
 </mat-expansion-panel>
