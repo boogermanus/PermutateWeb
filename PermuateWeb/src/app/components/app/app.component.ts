@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { IApp } from '../../interfaces/iapp';
 @Component({
   selector: 'app-app',
   standalone: true,
@@ -10,5 +11,5 @@ import { MatExpansionModule } from '@angular/material/expansion';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-
+  @Input() app!: IApp
 }
