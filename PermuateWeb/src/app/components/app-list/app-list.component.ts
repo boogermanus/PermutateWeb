@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit, viewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, OnInit, viewChild } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatAccordion, MatExpansionModule} from '@angular/material/expansion';
 import { AppService } from '../../services/app.service';
@@ -22,13 +22,18 @@ export class AppListComponent implements AfterViewInit {
   public appList: IApp[] = [];
   public accordion = viewChild.required(MatAccordion);
   public expanded: boolean = false;
-  public buttonText?: string;
-  constructor(private readonly service: AppService) {
+  public buttonText: string = 'Collapse All';
+
+  constructor(
+    private readonly service: AppService,
+    private readonly crd: ChangeDetectorRef
+  ) {
     this.appList = this.service.getApps();
   }
 
   ngAfterViewInit(): void {
     this.toggle();
+    this.crd.detectChanges();
   }
 
   public toggle(): void {
