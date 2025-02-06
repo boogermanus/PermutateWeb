@@ -66,7 +66,7 @@ const apps: IApp[] = [
     },
     {
         id: 10,
-        name: 'FauxScope',
+        name: 'iFry',
         description: 'iFry is an Oven to Air Fryer temp/time conversion tool. Built with Angular and Angular Material.',
         appUrl: 'https://permutate.us/stuff/ifry',
         gitHubUrl: 'https://github.com/boogermanus/ifry'
