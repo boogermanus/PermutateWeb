@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'PermuateWeb' title`, () => {
+  it(`should have the 'Permutate Web' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Permuate Web');
+    expect(app.title).toEqual('Permutate Web');
   });
 
   // it('should render title', () => {

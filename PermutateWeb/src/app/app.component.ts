@@ -14,5 +14,5 @@ import { AppListComponent } from './components/app-list/app-list.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Permuate Web';
+  title = 'Permutate Web';
 }
