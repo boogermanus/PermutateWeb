@@ -5,7 +5,7 @@ import { MatCardModule} from '@angular/material/card'
   selector: 'app-profile',
   standalone: true,
   imports: [
-    MatCardModule
+    MatCardModule,
   ],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss'
