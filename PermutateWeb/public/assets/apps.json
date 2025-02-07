@@ -14,13 +14,12 @@
     {
         "id": 2,
         "name": "Insulter",
-        "description": "The insulter application was the first app I wrote with both a backend API, and a separate frontend in Angular. The backend API generates the insults while the frontend simply displays them. The backend is built with .NET Core, while The frontend uses Angular.",
+        "description": "Do you need an insult??? Look no further! Insulter was built with Angular and was my first attempt to use Animations to fade in and out.",
         "appUrl": "https://permutate.us/stuff/insulter",
         "gitHubUrl": "https://github.com/boogermanus/insulter",
         "tags": [
             "Angular",
             "Angular Material",
-            ".NET Core",
             "bootstrap"
         ]
     },
