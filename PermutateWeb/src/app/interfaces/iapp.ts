@@ -4,4 +4,5 @@ export interface IApp {
     description: string;
     appUrl: string;
     gitHubUrl: string;
+    tags: string[];
 }

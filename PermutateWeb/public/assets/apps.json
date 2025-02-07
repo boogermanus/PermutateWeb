@@ -4,21 +4,24 @@
         "name": "Tickers",
         "description": "Tickers is a simple application that counts up or down in ticks (seconds). It was my first Angular application. The current version has been refactored to use Angular 18.",
         "appUrl": "https://permutate.us/stuff/tickers",
-        "gitHubUrl": "https://github.com/boogermanus/tickers"
+        "gitHubUrl": "https://github.com/boogermanus/tickers",
+        "tags": ["Angular", "Angular Material", "bootstrap"]
     },
     {
         "id": 2,
         "name": "Insulter",
         "description": "The insulter application was the first app I wrote with both a backend API, and a separate frontend in Angular. The backend API generates the insults while the frontend simply displays them. The backend is built with .NET Core, while The frontend uses Angular.",
         "appUrl": "https://permutate.us/stuff/insulter",
-        "gitHubUrl": "https://github.com/boogermanus/insulter"
+        "gitHubUrl": "https://github.com/boogermanus/insulter",
+        "tags": ["Angular","bootstrap"]
     },
     {
         "id": 3,
         "name": "Groclist",
         "description": "Groclist is an application I built to use while grocery shopping. It lets me add a lists of items from different stores so that I can check them off as I am shopping. It features a backend API and a frontend to display the data. The backend API was built with NestJS and uses TypeORM to connect to a database to store lists and their items. The backend API features an authentication system so that users have to enter a username and password to gain access. The frontend is written in Angular, and uses Angular Material and bootstap to display items. Register a user and give it a try.",
         "appUrl": "https://permutate.us/stuff/groclist",
-        "gitHubUrl": "https://github.com/boogermanus/groclist"
+        "gitHubUrl": "https://github.com/boogermanus/groclist",
+        "tags": ["Angular", "Angular Material",".NET Core","bootstrap"]
     },
     {
         "id": 4,
