@@ -34,7 +34,7 @@ export class AppListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.appList = this.service.getAppsAsync();
+    this.appList = this.service.getApps();
   }
 
   public toggle(): void {
