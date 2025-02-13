@@ -142,5 +142,18 @@
             "Angular Material",
             "bootstrap"
         ]
+    },
+    {
+        "id": 12,
+        "name": "TDOM",
+        "description": "TDOM short for Trading Day of the Month is an application I buildt for my father to assist him in his commodities trading. It is a feature rich application; however due to the proprietary nature of the code the source is not avaliable. Guests can login and view some of the features using the demo account (demo@demo.com/Passw0rd!).",
+        "appUrl": "https://permutate.us/apps/tdom",
+        "gitHubUrl": "",
+        "tags": [
+            "Angular",
+            "Angular Material",
+            ".NET Core",
+            "bootstrap"
+        ]
     }
 ]
