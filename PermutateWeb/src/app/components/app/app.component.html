@@ -6,6 +6,8 @@
     <app-tags [tags]="app.tags"></app-tags>
     <mat-action-row>
         <a [href]="app.appUrl">View</a>
+        @if(app.gitHubUrl !== '') {
         <a [href]="app.gitHubUrl" class="ms-2">Source Code</a>
+        }
     </mat-action-row>
 </mat-expansion-panel>
