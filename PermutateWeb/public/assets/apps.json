@@ -52,7 +52,7 @@
         "id": 5,
         "name": "Dogs Age",
         "description": "Dogs Age is a cute little application that will tell you how old your dog is in human years. It has three different ways to calculate the age, and each will provide a slightly different result. Pick your favorite! The app was built with Angular and makes heavy use of Angular Material. It was another move on my part to learn more about unit testing in Angular.",
-        "appUrl": "https://permutate.us/stuff/dogsage",
+        "appUrl": "https://permutate.us/apps/dogsage",
         "gitHubUrl": "https://github.com/boogermanus/dogsage",
         "tags": [
             "Angular",
