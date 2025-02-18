@@ -87,7 +87,7 @@
         "id": 8,
         "name": "Secs",
         "description": "Did you ever wonder how many megaseconds it is till your birthday? What about how many gigaseconds since the moon landing? Wonder no more! Secs is a simple application that will tell you the number of Giga, Mega, Kilo, and actual seconds between two dates. Written in Angular, it features unit testing and use of ng-bootstrap since Angular Material doesn't have a good time entry component.",
-        "appUrl": "https://permutate.us/stuff/secs",
+        "appUrl": "https://permutate.us/apps/secs",
         "gitHubUrl": "https://github.com/boogermanus/secs",
         "tags": [
             "Angular",
