@@ -98,7 +98,7 @@
         "id": 9,
         "name": "FauxScope",
         "description": "FauxScope is a simple application that will tell you what your actual horoscope is. I built this app after I remembered what I was taught in Solar Astronomy. Basically, the idiots that invented horoscopes didn't ever account for the movement of the stars; so, what you believe your actual horoscope is..isn't.",
-        "appUrl": "https://permutate.us/stuff/fauxscope",
+        "appUrl": "https://permutate.us/apps/fauxscope",
         "gitHubUrl": "https://github.com/boogermanus/fauxscope",
         "tags": [
             "Angular",
