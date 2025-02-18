@@ -110,7 +110,7 @@
         "id": 10,
         "name": "iFry",
         "description": "iFry is an Oven to Air Fryer temp/time conversion tool. Built with Angular and Angular Material.",
-        "appUrl": "https://permutate.us/stuff/ifry",
+        "appUrl": "https://permutate.us/apps/ifry",
         "gitHubUrl": "https://github.com/boogermanus/ifry",
         "tags": [
             "Angular",
