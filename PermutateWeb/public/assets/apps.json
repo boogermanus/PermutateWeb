@@ -75,7 +75,7 @@
     {
         "id": 7,
         "name": "Texas Seasons",
-        "description": "The weather is different down here y'all! Seriously, Texas weather is some weird s**t. I seen it sleet, snow, and rain; there was a dust storm after the rain. When I watched a funny video on TikTok where someone described new seasons for Texas I was on board to develop this application. The app will tell you which 'season' we're in based on the date. Its written in Angular, and features more extensive use of Angular Material and, as always, unit tests",
+        "description": "The weather is different down here y'all! Seriously, Texas weather is some weird s**t. I've seen it sleet, snow, and rain; then there was a dust storm after the rain. When I watched a funny video on TikTok where someone described new seasons for Texas I was onboard to develop this application. The app will tell you which 'season' we're in based on the date. Its written in Angular, and features more extensive use of Angular Material and, as always, unit tests",
         "appUrl": "https://permutate.us/stuff/texasseasons",
         "gitHubUrl": "https://github.com/boogermanus/texasseasons",
         "tags": [
@@ -97,7 +97,7 @@
     {
         "id": 9,
         "name": "FauxScope",
-        "description": "FauxScope is a simple application that will tell you what your actual horoscope is. I built this app after I remembered what I was taught in Solar Astronomy. Basically, the idiots that invented horoscopes did\\n't ever account for the movement of the stars; so, what you believe your actual horoscope is..isn\\t.",
+        "description": "FauxScope is a simple application that will tell you what your actual horoscope is. I built this app after I remembered what I was taught in Solar Astronomy. Basically, the idiots that invented horoscopes didn't ever account for the movement of the stars; so, what you believe your actual horoscope is..isn't.",
         "appUrl": "https://permutate.us/stuff/fauxscope",
         "gitHubUrl": "https://github.com/boogermanus/fauxscope",
         "tags": [
