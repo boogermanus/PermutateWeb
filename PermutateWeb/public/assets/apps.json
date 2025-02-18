@@ -39,7 +39,7 @@
     {
         "id": 4,
         "name": "Special Move!",
-        "description": "Special Moves is an application that I built after seeing one of those What's your cards on facebook. Users select the first letter of their first name, the day of the month of their birth, and the first letter of their surname to generate their Special Move. This application is only a frontend as all the information is stored in the app. It uses Angular, Angular Material, and bootstrap in its UI. I built this app in order to teach myself more about unit testing Angular applications.",
+        "description": "Special Moves is an application that I built after seeing one of those 'What's your' cards on facebook. Users select the first letter of their first name, the day of the month of their birth, and the first letter of their surname to generate their Special Move. This application is only a frontend as all the information is stored in the app. It uses Angular, Angular Material, and bootstrap in its UI. I built this app in order to teach myself more about unit testing Angular applications.",
         "appUrl": "https://permutate.us/stuff/specialmove",
         "gitHubUrl": "https://github.com/boogermanus/specialmove",
         "tags": [
@@ -51,7 +51,7 @@
     {
         "id": 5,
         "name": "Dogs Age",
-        "description": "Dogs Age is a cute little application that will tell you how old your dog is in human years. I has three different ways to calculate the age, and each will provide a slightly different result. Pick your favorite! The app was built with Angular and makes heavy use of Angular Material. It was another move on my part to learn more about unit testing in Angular.",
+        "description": "Dogs Age is a cute little application that will tell you how old your dog is in human years. It has three different ways to calculate the age, and each will provide a slightly different result. Pick your favorite! The app was built with Angular and makes heavy use of Angular Material. It was another move on my part to learn more about unit testing in Angular.",
         "appUrl": "https://permutate.us/stuff/dogsage",
         "gitHubUrl": "https://github.com/boogermanus/dogsage",
         "tags": [
@@ -63,7 +63,7 @@
     {
         "id": 6,
         "name": "The Rules of Acquisition",
-        "description": "If you don't like Star Trek Deep Space Nine, then this app isn't for you! The Rules of Acquisition is an Angular application I built after finding a complete list of them in JSON format. You can read more about the app on its about page. I set out to learn more about bootstrap and continue my journey learning about unit testing in Angular. This app was also a chance for me to learn more about storing information on the browser.",
+        "description": "If you don't like Star Trek Deep Space Nine, then this app isn't for you! The Rules of Acquisition is an Angular application I built after finding a complete list of them in JSON format. You can read more about the app on its about page. I set out to learn more about bootstrap and continue my journey learning about unit testing in Angular. This app was also a chance for me to learn more about storing information in the browser.",
         "appUrl": "https://permutate.us/stuff/rulesofacquisition",
         "gitHubUrl": "https://github.com/boogermanus/rulesofacquisition",
         "tags": [
