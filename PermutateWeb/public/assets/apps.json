@@ -155,5 +155,17 @@
             ".NET Core",
             "bootstrap"
         ]
+    },
+    {
+        "id": 13,
+        "name": "L2T2",
+        "description": "Have you ever wondered 'How long does it take to get to the Moon if I take off from the Earth at 1g acceleration? What if I were going to Mars?' Wonder no more! L2T2 short for 'Long 2 Travel 2' is an app I built to run those calcuations. Is uses the Astronomy API (astronomyapi.com) to fetch the distance of major planets from Earth and then runs an acceleration calculation to solve for time.",
+        "appUrl": "https://permutate.us/apps/l2t2",
+        "gitHubUrl": "https://github.com/boogermanus/L2T2",
+        "tags": [
+            "Angular",
+            "Angular Material",
+            "bootstrap"
+        ]
     }
 ]
