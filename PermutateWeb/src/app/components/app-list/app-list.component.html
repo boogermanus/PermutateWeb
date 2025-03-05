@@ -1,16 +1,17 @@
-
 <div class="row justify-content-center mt-2" [style.width]="'100%'">
-    <mat-card appearance="outlined" [style.width]="'75%'">
-        <mat-card-header>
-            <mat-card-title>Apps</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            <button class="mt-2" mat-button (click)="toggle()">{{buttonText}}</button>
-            <mat-accordion multi="true">
-                @for(app of appList | async; track app.id) {
+    <div class="col-md-8">
+        <mat-card appearance="outlined">
+            <mat-card-header>
+                <mat-card-title>Apps</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <button class="mt-2" mat-button (click)="toggle()">{{buttonText}}</button>
+                <mat-accordion multi="true">
+                    @for(app of appList | async; track app.id) {
                     <app-app [app]="app" [expanded]="expanded"></app-app>
-                }
-            </mat-accordion>
-        </mat-card-content>
-    </mat-card>
+                    }
+                </mat-accordion>
+            </mat-card-content>
+        </mat-card>
+    </div>
 </div>
