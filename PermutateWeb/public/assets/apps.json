@@ -32,8 +32,9 @@
         "tags": [
             "Angular",
             "Angular Material",
+            "bootstrap",
             ".NET Core",
-            "bootstrap"
+            "EntityFrameworkCore"
         ]
     },
     {
@@ -91,7 +92,10 @@
         "gitHubUrl": "https://github.com/boogermanus/secs",
         "tags": [
             "Angular",
-            "Angular Material"
+            "Angular Material",
+            "momentjs",
+            "ng-bootstrap"
+
         ]
     },
     {
@@ -127,8 +131,10 @@
         "tags": [
             "Angular",
             "Angular Material",
+            "bootstrap",
             ".NET Core",
-            "bootstrap"
+            "EntityFrameworkCore"
+
         ]
     },
     {
@@ -153,6 +159,7 @@
             "Angular",
             "Angular Material",
             ".NET Core",
+            "EntityFrameworkCore",
             "bootstrap"
         ]
     },

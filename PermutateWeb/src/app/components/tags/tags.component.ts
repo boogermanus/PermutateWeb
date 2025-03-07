@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MatChipsModule } from '@angular/material/chips';
 @Component({
   selector: 'app-tags',
@@ -9,6 +9,10 @@ import { MatChipsModule } from '@angular/material/chips';
   templateUrl: './tags.component.html',
   styleUrl: './tags.component.scss'
 })
-export class TagsComponent {
+export class TagsComponent implements OnInit {
   @Input() tags!: string[]
+
+  ngOnInit(): void {
+    this.tags = this.tags.sort();
+  }
 }
