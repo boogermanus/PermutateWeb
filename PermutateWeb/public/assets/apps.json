@@ -27,7 +27,7 @@
         "id": 3,
         "name": "Groclist",
         "description": "Groclist is an application I built to use while grocery shopping. It lets me add a lists of items from different stores so that I can check them off as I am shopping. It features a backend API and a frontend to display the data. The backend API was built with .NET Core and uses Entity Framework to connect to a database to store lists and their items. The backend API features an authentication system so that users have to enter a username and password to gain access. The frontend is written in Angular, and uses Angular Material and bootstap to display items. Register a user and give it a try.",
-        "appUrl": "https://permutate.us/stuff/groclist",
+        "appUrl": "https://permutate.us/apps/groclist",
         "gitHubUrl": "https://github.com/boogermanus/groclist",
         "tags": [
             "Angular",
@@ -65,7 +65,7 @@
         "id": 6,
         "name": "The Rules of Acquisition",
         "description": "If you don't like Star Trek Deep Space Nine, then this app isn't for you! The Rules of Acquisition is an Angular application I built after finding a complete list of them in JSON format. You can read more about the app on its about page. I set out to learn more about bootstrap and continue my journey learning about unit testing in Angular. This app was also a chance for me to learn more about storing information in the browser.",
-        "appUrl": "https://permutate.us/stuff/rulesofacquisition",
+        "appUrl": "https://permutate.us/apps/rulesofacquisition",
         "gitHubUrl": "https://github.com/boogermanus/rulesofacquisition",
         "tags": [
             "Angular",
@@ -126,7 +126,7 @@
         "id": 11,
         "name": "WeatherAlerts",
         "description": "WeatherAlerts is an application that uses the National Weather Service's API to allow users to search and view NWS Alerts for all 50 states. You can save 'Zones', or 'Counties' and view alerts for your area. Registration is required in order to save. Written in .NET Core and using Entity Framework, with Angular to display the results",
-        "appUrl": "https://permutate.us/stuff/weatheralerts",
+        "appUrl": "https://permutate.us/apps/weatheralerts",
         "gitHubUrl": "https://github.com/boogermanus/weatheralerts",
         "tags": [
             "Angular",
