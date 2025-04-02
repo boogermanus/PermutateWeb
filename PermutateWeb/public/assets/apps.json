@@ -174,5 +174,17 @@
             "Angular Material",
             "bootstrap"
         ]
+    },
+    {
+        "id": 14,
+        "name": "iQuake",
+        "description": "Did you feel a rumble? Maybe the building you are in shook. It was probably an Earthquake! Where I live they are becoming common due to oil drilling. iQuake will let you select a spot on the map to see what earthquakes have happened within your area.",
+        "appUrl": "https://permutate.us/apps/iquake",
+        "gitHubUrl": "https://github.com/boogermanus/iquake",
+        "tags": [
+            "Angular",
+            "Angular Material",
+            "bootstrap"
+        ]
     }
 ]
