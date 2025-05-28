@@ -5,9 +5,9 @@
     <p>{{app.description}}</p>
     <app-tags [tags]="app.tags"></app-tags>
     <mat-action-row>
-        <a [href]="app.appUrl">View</a>
+        <a mat-flat-button target="_blank" [href]="app.appUrl">View</a>
         @if(app.gitHubUrl !== '') {
-        <a [href]="app.gitHubUrl" class="ms-2">Source Code</a>
+        <a mat-flat-button target="_blank" [href]="app.gitHubUrl" class="ms-2">Source Code</a>
         }
     </mat-action-row>
 </mat-expansion-panel>
