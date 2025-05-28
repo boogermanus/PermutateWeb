@@ -1,9 +1,0 @@
-[
-    {
-        "Id": 1,
-        "Name": "Tickers",
-        "Description": "Tickers is a simple application that counts up or down in ticks (seconds). This was my first Angular application, and I have since refactored it to use Angular 18 and Angular Material",
-        "AppUrl": "https://permutate.us/stuff/tickers",
-        "GitHubUrl": "https://github.com/boogermanus/tickers"
-    }
-]
