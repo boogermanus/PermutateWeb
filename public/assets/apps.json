@@ -186,5 +186,16 @@
             "Angular Material",
             "bootstrap"
         ]
-    }
+    },
+  {
+    "id": 15,
+    "name": "Observations",
+    "description": "Observations is a simple application that uses the NOAA's API to show the current weather observations based on locations chosen from a map. This is my first Blazor application which allowed me to write all the code in C# instead of splitting things between an API and an Angular front end.",
+    "appUrl": "https://permutate.us/apps/observations",
+    "gitHubUrl": "https://github.com/boogermanus/weatherobservations",
+    "tags": [
+      "Blazor",
+      ".NET Core"
+    ]
+  }
 ]
