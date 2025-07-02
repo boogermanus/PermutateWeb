@@ -14,6 +14,7 @@ describe('AppComponent', () => {
 
     fixture = TestBed.createComponent(AppComponent);
     component = fixture.componentInstance;
+    component.app = {id: 1, name: "test", description: "",gitHubUrl: "",appUrl:"", tags: ["test"]};
     fixture.detectChanges();
   });
 
