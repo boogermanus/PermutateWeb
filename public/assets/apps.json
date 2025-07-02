@@ -120,7 +120,8 @@
         "tags": [
             "Angular",
             "Angular Material",
-            "bootstrap"
+            "bootstrap",
+            "ngrx/signals"
         ]
     },
     {
