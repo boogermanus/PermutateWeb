@@ -9,17 +9,16 @@ import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-app-list',
-  standalone: true,
-  imports: [
-    MatCardModule,
-    MatExpansionModule,
-    AppComponent,
-    MatButtonModule,
-    CommonModule
-  ],
-  templateUrl: './app-list.component.html',
-  styleUrl: './app-list.component.scss'
+    selector: 'app-app-list',
+    imports: [
+        MatCardModule,
+        MatExpansionModule,
+        AppComponent,
+        MatButtonModule,
+        CommonModule
+    ],
+    templateUrl: './app-list.component.html',
+    styleUrl: './app-list.component.scss'
 })
 export class AppListComponent implements OnInit {
   public appList!: Observable<IApp[]>
