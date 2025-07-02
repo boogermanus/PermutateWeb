@@ -40,7 +40,7 @@
     {
         "id": 4,
         "name": "Special Move!",
-        "description": "Special Moves is an application that I built after seeing one of those 'What's your' cards on facebook. Users select the first letter of their first name, the day of the month of their birth, and the first letter of their surname to generate their Special Move. This application is only a frontend as all the information is stored in the app. It uses Angular, Angular Material, and bootstrap in its UI. I built this app in order to teach myself more about unit testing Angular applications.",
+        "description": "Special Move is an application that I built after seeing one of those 'What's your' cards on facebook. Users select the first letter of their first name, the day of the month of their birth, and the first letter of their surname to generate their Special Move. This application is only a frontend as all the information is stored in the app. It uses Angular, Angular Material, and bootstrap in its UI. I built this app in order to teach myself more about unit testing Angular applications.",
         "appUrl": "https://permutate.us/apps/specialmove",
         "gitHubUrl": "https://github.com/boogermanus/specialmove",
         "tags": [
