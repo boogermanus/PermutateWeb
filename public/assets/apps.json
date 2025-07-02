@@ -197,7 +197,8 @@
     "gitHubUrl": "https://github.com/boogermanus/observeweather",
     "tags": [
       "Blazor",
-      ".NET Core"
+      ".NET Core",
+      "EntityFrameworkCore"
     ]
   }
 ]
