@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Tickers",
-        "description": "Tickers is a simple application that counts up or down in ticks (seconds). It was my first Angular application. The current version has been refactored to use Angular 18.",
+        "description": "Tickers is a simple application that counts up or down in ticks (seconds). It was my first Angular application.",
         "appUrl": "https://permutate.us/apps/tickers",
         "gitHubUrl": "https://github.com/boogermanus/tickers",
         "tags": [
@@ -136,7 +136,6 @@
             "bootstrap",
             ".NET Core",
             "EntityFrameworkCore"
-
         ]
     },
     {
