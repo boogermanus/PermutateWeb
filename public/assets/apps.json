@@ -1,193 +1,192 @@
 [
-    {
-        "id": 1,
-        "name": "Tickers",
-        "description": "Tickers is a simple application that counts up or down in ticks (seconds). It was my first Angular application.",
-        "appUrl": "https://permutate.us/apps/tickers",
-        "gitHubUrl": "https://github.com/boogermanus/tickers",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Insulter",
-        "description": "Do you need an insult??? Look no further! Insulter was built with Angular and was my first attempt to use Animations to fade in and out.",
-        "appUrl": "https://permutate.us/apps/insulter",
-        "gitHubUrl": "https://github.com/boogermanus/insulter",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Groclist",
-        "description": "Groclist is an application I built to use while grocery shopping. It lets me add a lists of items from different stores so that I can check them off as I am shopping. It features a backend API and a frontend to display the data. The backend API was built with .NET Core and uses Entity Framework to connect to a database to store lists and their items. The backend API features an authentication system so that users have to enter a username and password to gain access. The frontend is written in Angular, and uses Angular Material and bootstap to display items. Register a user and give it a try.",
-        "appUrl": "https://permutate.us/apps/groclist",
-        "gitHubUrl": "https://github.com/boogermanus/groclist",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap",
-            ".NET Core",
-            "EntityFrameworkCore"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Special Move!",
-        "description": "Special Move is an application that I built after seeing one of those 'What's your' cards on facebook. Users select the first letter of their first name, the day of the month of their birth, and the first letter of their surname to generate their Special Move. This application is only a frontend as all the information is stored in the app. It uses Angular, Angular Material, and bootstrap in its UI. I built this app in order to teach myself more about unit testing Angular applications.",
-        "appUrl": "https://permutate.us/apps/specialmove",
-        "gitHubUrl": "https://github.com/boogermanus/specialmove",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap",
-            "ngrx/signals"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Dogs Age",
-        "description": "Dogs Age is a cute little application that will tell you how old your dog is in human years. It has three different ways to calculate the age, and each will provide a slightly different result. Pick your favorite! The app was built with Angular and makes heavy use of Angular Material. It was another move on my part to learn more about unit testing in Angular.",
-        "appUrl": "https://permutate.us/apps/dogsage",
-        "gitHubUrl": "https://github.com/boogermanus/dogsage",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "The Rules of Acquisition",
-        "description": "If you don't like Star Trek Deep Space Nine, then this app isn't for you! The Rules of Acquisition is an Angular application I built after finding a complete list of them in JSON format. You can read more about the app on its about page. I set out to learn more about bootstrap and continue my journey learning about unit testing in Angular. This app was also a chance for me to learn more about storing information in the browser.",
-        "appUrl": "https://permutate.us/apps/rulesofacquisition",
-        "gitHubUrl": "https://github.com/boogermanus/rulesofacquisition",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Texas Seasons",
-        "description": "The weather is different down here y'all! Seriously, Texas weather is some weird s**t. I've seen it sleet, snow, and rain; then there was a dust storm after the rain. When I watched a funny video on TikTok where someone described new seasons for Texas I was onboard to develop this application. The app will tell you which 'season' we're in based on the date. Its written in Angular, and features more extensive use of Angular Material and, as always, unit tests",
-        "appUrl": "https://permutate.us/apps/texasseasons",
-        "gitHubUrl": "https://github.com/boogermanus/texasseasons",
-        "tags": [
-            "Angular",
-            "Angular Material"
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Secs",
-        "description": "Did you ever wonder how many megaseconds it is till your birthday? What about how many gigaseconds since the moon landing? Wonder no more! Secs is a simple application that will tell you the number of Giga, Mega, Kilo, and actual seconds between two dates. Written in Angular, it features unit testing and use of ng-bootstrap since Angular Material doesn't have a good time entry component.",
-        "appUrl": "https://permutate.us/apps/secs",
-        "gitHubUrl": "https://github.com/boogermanus/secs",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "momentjs",
-            "ng-bootstrap"
-
-        ]
-    },
-    {
-        "id": 9,
-        "name": "FauxScope",
-        "description": "FauxScope is a simple application that will tell you what your actual horoscope is. I built this app after I remembered what I was taught in Solar Astronomy. Basically, the idiots that invented horoscopes didn't ever account for the movement of the stars; so, what you believe your actual horoscope is..isn't.",
-        "appUrl": "https://permutate.us/apps/fauxscope",
-        "gitHubUrl": "https://github.com/boogermanus/fauxscope",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 10,
-        "name": "iFry",
-        "description": "iFry is an Oven to Air Fryer temp/time conversion tool. Built with Angular and Angular Material.",
-        "appUrl": "https://permutate.us/apps/ifry",
-        "gitHubUrl": "https://github.com/boogermanus/ifry",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap",
-            "ngrx/signals"
-        ]
-    },
-    {
-        "id": 11,
-        "name": "WeatherAlerts",
-        "description": "WeatherAlerts is an application that uses the National Weather Service's API to allow users to search and view NWS Alerts for all 50 states. You can save 'Zones', or 'Counties' and view alerts for your area. Registration is required in order to save. Written in .NET Core and using Entity Framework, with Angular to display the results",
-        "appUrl": "https://permutate.us/apps/weatheralerts",
-        "gitHubUrl": "https://github.com/boogermanus/weatheralerts",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap",
-            ".NET Core",
-            "EntityFrameworkCore"
-        ]
-    },
-    {
-        "id": 12,
-        "name": "Memory",
-        "description": "A basic memory game built with entirely with Angular and Angular Material. Play a game and test your memory!",
-        "appUrl": "https://permutate.us/apps/memory",
-        "gitHubUrl": "https://github.com/boogermanus/memory",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 12,
-        "name": "TDOM",
-        "description": "TDOM short for Trading Day of the Month is an application I built for my father to assist him in his commodities trading. It is a feature rich application; however due to the proprietary nature of the code the source is not avaliable. Guests can login and view some of the features using the demo account (demo@demo.com/Passw0rd!).",
-        "appUrl": "https://permutate.us/apps/tdom",
-        "gitHubUrl": "",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            ".NET Core",
-            "EntityFrameworkCore",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 13,
-        "name": "L2T2",
-        "description": "Have you ever wondered 'How long does it take to get to the Moon if I take off from the Earth at 1g acceleration? What if I were going to Mars?' Wonder no more! L2T2 short for 'Long 2 Travel 2' is an app I built to run those calcuations. Is uses the Astronomy API (astronomyapi.com) to fetch the distance of major planets from Earth and then runs an acceleration calculation to solve for time.",
-        "appUrl": "https://permutate.us/apps/l2t2",
-        "gitHubUrl": "https://github.com/boogermanus/L2T2",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": 14,
-        "name": "iQuake",
-        "description": "Did you feel a rumble? Maybe the building you are in shook. It was probably an Earthquake! Where I live they are becoming common due to oil drilling. iQuake will let you select a spot on the map to see what earthquakes have happened within your area.",
-        "appUrl": "https://permutate.us/apps/iquake",
-        "gitHubUrl": "https://github.com/boogermanus/iquake",
-        "tags": [
-            "Angular",
-            "Angular Material",
-            "bootstrap"
-        ]
-    },
+  {
+    "id": 1,
+    "name": "Tickers",
+    "description": "Tickers is a simple application that counts up or down in ticks (seconds). It was my first Angular application.",
+    "appUrl": "https://permutate.us/apps/tickers",
+    "gitHubUrl": "https://github.com/boogermanus/tickers",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Insulter",
+    "description": "Do you need an insult??? Look no further! Insulter was built with Angular and was my first attempt to use Animations to fade in and out.",
+    "appUrl": "https://permutate.us/apps/insulter",
+    "gitHubUrl": "https://github.com/boogermanus/insulter",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Groclist",
+    "description": "Groclist is an application I built to use while grocery shopping. It lets me add a lists of items from different stores so that I can check them off as I am shopping. It features a backend API and a frontend to display the data. The backend API was built with .NET Core and uses Entity Framework to connect to a database to store lists and their items. The backend API features an authentication system so that users have to enter a username and password to gain access. The frontend is written in Angular, and uses Angular Material and bootstap to display items. Register a user and give it a try.",
+    "appUrl": "https://permutate.us/apps/groclist",
+    "gitHubUrl": "https://github.com/boogermanus/groclist",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap",
+      ".NET Core",
+      "EntityFrameworkCore"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Special Move!",
+    "description": "Special Move is an application that I built after seeing one of those 'What's your' cards on facebook. Users select the first letter of their first name, the day of the month of their birth, and the first letter of their surname to generate their Special Move. This application is only a frontend as all the information is stored in the app. It uses Angular, Angular Material, and bootstrap in its UI. I built this app in order to teach myself more about unit testing Angular applications.",
+    "appUrl": "https://permutate.us/apps/specialmove",
+    "gitHubUrl": "https://github.com/boogermanus/specialmove",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap",
+      "ngrx/signals"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dogs Age",
+    "description": "Dogs Age is a cute little application that will tell you how old your dog is in human years. It has three different ways to calculate the age, and each will provide a slightly different result. Pick your favorite! The app was built with Angular and makes heavy use of Angular Material. It was another move on my part to learn more about unit testing in Angular.",
+    "appUrl": "https://permutate.us/apps/dogsage",
+    "gitHubUrl": "https://github.com/boogermanus/dogsage",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "The Rules of Acquisition",
+    "description": "If you don't like Star Trek Deep Space Nine, then this app isn't for you! The Rules of Acquisition is an Angular application I built after finding a complete list of them in JSON format. You can read more about the app on its about page. I set out to learn more about bootstrap and continue my journey learning about unit testing in Angular. This app was also a chance for me to learn more about storing information in the browser.",
+    "appUrl": "https://permutate.us/apps/rulesofacquisition",
+    "gitHubUrl": "https://github.com/boogermanus/rulesofacquisition",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Texas Seasons",
+    "description": "The weather is different down here y'all! Seriously, Texas weather is some weird s**t. I've seen it sleet, snow, and rain; then there was a dust storm after the rain. When I watched a funny video on TikTok where someone described new seasons for Texas I was onboard to develop this application. The app will tell you which 'season' we're in based on the date. Its written in Angular, and features more extensive use of Angular Material and, as always, unit tests",
+    "appUrl": "https://permutate.us/apps/texasseasons",
+    "gitHubUrl": "https://github.com/boogermanus/texasseasons",
+    "tags": [
+      "Angular",
+      "Angular Material"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Secs",
+    "description": "Did you ever wonder how many megaseconds it is till your birthday? What about how many gigaseconds since the moon landing? Wonder no more! Secs is a simple application that will tell you the number of Giga, Mega, Kilo, and actual seconds between two dates. Written in Angular, it features unit testing and use of ng-bootstrap since Angular Material doesn't have a good time entry component.",
+    "appUrl": "https://permutate.us/apps/secs",
+    "gitHubUrl": "https://github.com/boogermanus/secs",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "momentjs",
+      "ng-bootstrap"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "FauxScope",
+    "description": "FauxScope is a simple application that will tell you what your actual horoscope is. I built this app after I remembered what I was taught in Solar Astronomy. Basically, the idiots that invented horoscopes didn't ever account for the movement of the stars; so, what you believe your actual horoscope is..isn't.",
+    "appUrl": "https://permutate.us/apps/fauxscope",
+    "gitHubUrl": "https://github.com/boogermanus/fauxscope",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "iFry",
+    "description": "iFry is an Oven to Air Fryer temp/time conversion tool. Built with Angular and Angular Material.",
+    "appUrl": "https://permutate.us/apps/ifry",
+    "gitHubUrl": "https://github.com/boogermanus/ifry",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap",
+      "ngrx/signals"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "WeatherAlerts",
+    "description": "WeatherAlerts is an application that uses the National Weather Service's API to allow users to search and view NWS Alerts for all 50 states. You can save 'Zones', or 'Counties' and view alerts for your area. Registration is required in order to save. Written in .NET Core and using Entity Framework, with Angular to display the results",
+    "appUrl": "https://permutate.us/apps/weatheralerts",
+    "gitHubUrl": "https://github.com/boogermanus/weatheralerts",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap",
+      ".NET Core",
+      "EntityFrameworkCore"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Memory",
+    "description": "A basic memory game built with entirely with Angular and Angular Material. Play a game and test your memory!",
+    "appUrl": "https://permutate.us/apps/memory",
+    "gitHubUrl": "https://github.com/boogermanus/memory",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "TDOM",
+    "description": "TDOM short for Trading Day of the Month is an application I built for my father to assist him in his commodities trading. It is a feature rich application; however due to the proprietary nature of the code the source is not avaliable. Guests can login and view some of the features using the demo account (demo@demo.com/Passw0rd!).",
+    "appUrl": "https://permutate.us/apps/tdom",
+    "gitHubUrl": "",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      ".NET Core",
+      "EntityFrameworkCore",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "L2T2",
+    "description": "Have you ever wondered 'How long does it take to get to the Moon if I take off from the Earth at 1g acceleration? What if I were going to Mars?' Wonder no more! L2T2 short for 'Long 2 Travel 2' is an app I built to run those calcuations. Is uses the Astronomy API (astronomyapi.com) to fetch the distance of major planets from Earth and then runs an acceleration calculation to solve for time.",
+    "appUrl": "https://permutate.us/apps/l2t2",
+    "gitHubUrl": "https://github.com/boogermanus/L2T2",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "iQuake",
+    "description": "Did you feel a rumble? Maybe the building you are in shook. It was probably an Earthquake! Where I live they are becoming common due to oil drilling. iQuake will let you select a spot on the map to see what earthquakes have happened within your area.",
+    "appUrl": "https://permutate.us/apps/iquake",
+    "gitHubUrl": "https://github.com/boogermanus/iquake",
+    "tags": [
+      "Angular",
+      "Angular Material",
+      "bootstrap"
+    ]
+  },
   {
     "id": 15,
     "name": "Observations",
@@ -198,6 +197,20 @@
       "Blazor",
       ".NET Core",
       "EntityFrameworkCore"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bibliotheca",
+    "description": "Bibliotheca is an application I built to help me catalog my collections of books at home. It has many features, which you can review by visiting the home page.",
+    "appUrl": "https://permutate.us/apps/bibliotheca",
+    "gitHubUrl": "https://github.com/boogermanus/bibliotheca",
+    "tags": [
+      "Angular",
+      ".NET Core",
+      "EntityFrameworkCore",
+      "Angular Material",
+      "Bootstrap"
     ]
   }
 ]
